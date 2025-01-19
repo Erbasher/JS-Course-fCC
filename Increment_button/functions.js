@@ -43,12 +43,12 @@ let lapsCompleted = 0;
 // Run it 3 times
 
 function laps() {
-    lapsCompleted = lapsCompleted + 1;
-    lapsCompleted = lapsCompleted + 1;
-    lapsCompleted = lapsCompleted + 1;
-}
 
-console.log(lapsCompleted)
+    lapsCompleted = (lapsCompleted + 1) * 3;
+    
+}
 laps();
+console.log(lapsCompleted)
+
 
 
